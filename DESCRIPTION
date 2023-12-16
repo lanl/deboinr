@@ -1,0 +1,20 @@
+Package: DeBoinR
+Type: Package
+Title: Boxplots and Outlier Detection for Probability Density Functions
+Version: 1.0
+Date: 2023-12-15
+Authors@R: c( person("Alexander C.", "Murph", email = "murph@lanl.gov",
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0001-7170-867X")), 
+	       person("Justin D.", "Strait", email = "jstrait@lanl.gov",
+                  role = c("aut"),
+                  comment = c(ORCID = "0000-0003-4356-9443"))
+		)
+Maintainer: Alexander C. Murph <murph@lanl.gov>
+Description: Orders a data-set consisting of an ensemble of probability density functions on the same x-grid.  Visualizes a boxplot of these functions based on the notion of distance determined by the user.  Reports outliers based on the distance chosen and the scaling factor for an IQR rule.
+License: MIT + file LICENSE
+Imports: parallel (>= 3.6.2), KernSmooth, ggplot2, gridExtra, pracma, stats, dplyr, graphics
+Depends: R (>= 3.5.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
