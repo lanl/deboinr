@@ -32,8 +32,8 @@ library(dplyr)
 #'
 #' xx = deboinr(DeBoinR::x_grid,
 #'              as.matrix(DeBoinR::pdf_data),
-#'              distance = "BD_fboxplot",
-#'              median_type = 'geometric',
+#'              distance = "hellinger",
+#'              median_type = 'cross',
 #'              center_PDFs = TRUE,
 #'              num_cores = 1
 #' )
@@ -243,7 +243,6 @@ deboinr = function(x_grid,
   }
   
   median_curve_data  = curves_by_colors[which(curves_by_colors$type == "median"),]
-  print(median_curve_data)
   median_curve       = data.frame(density = median_curve_data$density, x = x_grid, type = "Median", id = 1)
   vertical_bounds    = rbind(vertical_bounds, median_curve)
 
@@ -296,7 +295,7 @@ deboinr = function(x_grid,
   my_object$box_plot       = lst_p
   my_object$outliers       = idx_of_outliers
   my_object$density_order  = order_of_curves
-  class(my_object)         = "deboinr"
+  class(my_object)         = "DeBoinR"
   
   # Return the object:
   return(my_object)

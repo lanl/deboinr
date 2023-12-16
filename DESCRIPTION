@@ -11,7 +11,7 @@ Authors@R: c( person("Alexander C.", "Murph", email = "murph@lanl.gov",
                   comment = c(ORCID = "0000-0003-4356-9443"))
 		)
 Maintainer: Alexander C. Murph <murph@lanl.gov>
-Description: Orders a data-set consisting of an ensemble of probability density functions on the same x-grid.  Visualizes a boxplot of these functions based on the notion of distance determined by the user.  Reports outliers based on the distance chosen and the scaling factor for an IQR rule.
+Description: Orders a data-set consisting of an ensemble of probability density functions on the same x-grid.  Visualizes a boxplot of these functions based on the notion of distance determined by the user.  Reports outliers based on the distance chosen and the scaling factor for an inter-quartile range rule.
 License: MIT + file LICENSE
 Imports: parallel (>= 3.6.2), KernSmooth, ggplot2, gridExtra, pracma, stats, dplyr, graphics
 Depends: R (>= 3.5.0)
