@@ -1,3 +1,5 @@
+# **De**nsity **Bo**xplots **in R** 
+
 ![](https://www.r-pkg.org/badges/version/DeBoinR) ![](https://www.r-pkg.org/badges/last-release/DeBoinR)
 
 The main method `deboinr` of this package orders a data-set consisting of probability density functions on the same grid.  Printing a deboinr object visualizes a boxplot of these functions based on the notion of

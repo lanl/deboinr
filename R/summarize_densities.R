@@ -30,8 +30,9 @@ library(dplyr)
 #'
 #' @examples
 #'
+#' example_data = DeBoinR::pdf_data[1:100,]
 #' xx = deboinr(DeBoinR::x_grid,
-#'              as.matrix(DeBoinR::pdf_data),
+#'              as.matrix(example_data),
 #'              distance = "hellinger",
 #'              median_type = 'cross',
 #'              center_PDFs = TRUE,

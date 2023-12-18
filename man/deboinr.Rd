@@ -54,9 +54,12 @@ Reports outliers based on the distance chosen and k value.
 }
 \examples{
 
+example_data = DeBoinR::pdf_data[1:100,]
 xx = deboinr(DeBoinR::x_grid,
-             as.matrix(DeBoinR::pdf_data),
-             distance = "BD_fboxplot",
+             as.matrix(example_data),
+             distance = "hellinger",
+             median_type = 'cross',
+             center_PDFs = TRUE,
              num_cores = 1
 )
 
