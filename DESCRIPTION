@@ -11,7 +11,7 @@ Authors@R: c( person("Alexander C.", "Murph", email = "murph@lanl.gov",
                   comment = c(ORCID = "0000-0003-4356-9443"))
 		)
 Maintainer: Alexander C. Murph <murph@lanl.gov>
-Description: Orders a data-set consisting of an ensemble of probability density functions on the same x-grid.  Visualizes a box-plot of these functions based on the notion of distance determined by the user.  Reports outliers based on the distance chosen and the scaling factor for an interquartile range rule.
+Description: Orders a data-set consisting of an ensemble of probability density functions on the same x-grid.  Visualizes a box-plot of these functions based on the notion of distance determined by the user.  Reports outliers based on the distance chosen and the scaling factor for an interquartile range rule.  For further details, see: Alexander C. Murph et al. (2023). "Visualization and Outlier Detection for Probability Density Function Ensembles." <https://sirmurphalot.github.io/publications>.
 Copyright: file COPYRIGHT
 License: MIT + file LICENSE
 Imports: parallel (>= 3.6.2), KernSmooth, ggplot2, gridExtra, pracma, stats, dplyr, graphics
