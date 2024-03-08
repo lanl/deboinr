@@ -56,7 +56,7 @@ Indices of Outliers:
 parallel, KernSmooth, ggplot2, gridExtra, fda, pracma, stats, dplyr, graphics
 
 ## Citation
-Alexander C. Murph, Justin D. Strait, Kelly R. Moran, Jeffrey D. Hyman, Hari S. Viswanathan, & Philip H. Stauffer. (2023). Visualization and Outlier Detection for Probability Density Function Ensembles.  _In Review._
+Alexander C. Murph, Justin D. Strait, Kelly R. Moran, Jeffrey D. Hyman, & Philip H. Stauffer. (2023). Visualization and Outlier Detection for Probability Density Function Ensembles.  _In Review._
 
 ## Release
 
